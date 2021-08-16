@@ -48,4 +48,6 @@ def getData():
     set FLASK_RUN_HOST=192.168.0.50 
     flask run
     py -m venv venv
+    pip3 freeze > requirements.txt
+    pip install -r requirements.txt
 '''
